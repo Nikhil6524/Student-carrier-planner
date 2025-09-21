@@ -20,7 +20,7 @@ import re
 try:
     GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 except (KeyError, FileNotFoundError):
-    GEMINI_API_KEY = "AIzaSyAU7FX2ErV4PliCC25s84V30B6_ReIscGs" # <--- PASTE YOUR API KEY HERE
+    GEMINI_API_KEY = "AIzaSyBYrmSyTAWM0AVqdSFSYbG__YPdL6eMPtI" # <--- PASTE YOUR API KEY HERE
 
 genai.configure(api_key=GEMINI_API_KEY)
 
